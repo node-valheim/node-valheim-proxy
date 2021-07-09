@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.16.2",
-    "node-steamworks": "git://github.com/node-valheim/node-steamworks.git",
-    "node-valheim-core": "git://github.com/node-valheim-core/node-steamworks.git"
+    "node-steamworks": "https://github.com/node-valheim/node-steamworks.git",
+    "node-valheim-core": "https://github.com/node-valheim-core/node-steamworks.git"
   }
 }
