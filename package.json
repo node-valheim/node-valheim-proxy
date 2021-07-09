@@ -1,0 +1,20 @@
+{
+  "name": "node-valheim-proxy",
+  "version": "1.0.0",
+  "description": "Valheim proxy to monitor traffic in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "bruteforce-strings": "node tools/bruteforce-string-hashes.js",
+    "reinstall": "npm uninstall && npm install",
+    "reinstallrun": "npm uninstall && npm install && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonyleeson",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.16.2",
+    "node-steamworks": "git://github.com/node-valheim/node-steamworks.git",
+    "node-valheim-core": "git://github.com/node-valheim-core/node-steamworks.git"
+  }
+}
